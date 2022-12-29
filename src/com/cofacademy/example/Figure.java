@@ -4,4 +4,6 @@ public  abstract class Figure {
     public void display(){
         System.out.println("Hello ");
     };
+
+    public double calculateAre
 }
