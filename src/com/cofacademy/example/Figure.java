@@ -5,7 +5,5 @@ public  abstract class Figure {
         System.out.println("Hello ");
     };
 
-    public double calculateArea(){
-
-    };
+    public abstract double calculateArea();
 }
