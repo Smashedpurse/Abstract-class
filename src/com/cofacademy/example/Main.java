@@ -12,11 +12,12 @@ public class Main {
         Rectangule r = new Rectangule();
         r.setBase(10);
         r.setLarge(2);
-        r.calculateArea();
-        System.out.println("The area of the rectangule is: " + r.calculateArea());
+        System.out.println("The area of the rectangle is: " + r.calculateArea());
 
-
-
+        //APPLICATION OF THE SUBCLASS USING A METHOD PROVIDED BY A ABSTRACT CLASS
+        Circule c = new Circule();
+        c.setRadius(3);
+        System.out.println("The area of the circle is: " + c.calculateArea());
 
 
 
